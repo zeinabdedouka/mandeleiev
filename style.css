@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
+
+.container {
+    width: 450px;
+    height:200px;
+    background-color: rgb(185, 197, 236);
+    text-align: center;
+    border-radius: 10px;
+}
+
+#btn {
+    background-color: rgb(193, 235, 221);
+    border: none;
+    width: 150px;
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#btn:hover {
+    background-color: white;
+}
+
+#checkbox {
+    margin-top: 35px;
+}

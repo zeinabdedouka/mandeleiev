@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+#couleur1{
+    background-color: #44396B;
+}
+#couleur2{
+    background-color: #7AB1D2;
+}
+#couleur3{
+    background-color: #94CFC0;
+}
+#couleur4{
+    background-color: #749265;
+}
+#couleur5{
+    background-color: #F0F8C9;
+}
+#couleur6{
+    background-color: #FFEFC6;
+}
+#couleur7{
+    background-color: #F1CAA4;
+}
+#couleur8{
+    background-color: #ED9D81;
+}
+#couleur9{
+    background-color: #A16068;
+}
+#couleur10{
+    background-color: #AC6589;
+}
+.vide{
+    height: 20px;
+}
+.image{ 
+    display: flex;
+    justify-content: flex;
+    align-items: end ;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.image img{
+    height: 80px;
+    width: 80px ;
+    position: relative;
+    border-radius: 70px;
+    margin-right: 50px;
+    display: flex;
+    left: 5px;
+}
+.image p{
+    text-align: center;
+    right: 30px;
+    position: relative;
+}
+
+@media screen and (min-width: 2008px) {
+    body{
+        font-size: 14px;    
+}
+}
+@media screen and (max-width:2008px) {
+    body{
+        font-size: 14px;    
+}
+}
+@media screen and (max-width:1450px) {
+    body{
+        font-size: 10px;  
+}
+}
+@media screen and (max-width:1000px) {
+    body{
+        font-size: 9px;   
+}
+.p1{
+    font-size: 10px;
+}
+}
+@media screen and (max-width:906px) {
+    body{
+        font-size: 7px;   
+}
+}
+@media screen and (max-width:720px) {
+    body{
+        font-size: 5px;   
+}
+}
+@media screen and (max-width:540px) {
+    body{
+        font-size: 4px;  
+}
+}
